@@ -1,0 +1,2 @@
+eligible_initial_patient_staff_pool_messages,reference_forwarded,detector_forwarded,eligible_clinical,clinical_forwarded,clinical_forwarding_rate,eligible_nonclinical,nonclinical_forwarded,nonclinical_forwarding_rate,reference_forwarding_rate,detector_forwarding_rate,absolute_rate_error,set_sensitivity,set_PPV,set_F1,config_implied_clinical_share_note
+564,400,400,399,389,0.974937343358396,165,11,0.06666666666666667,0.7092198581560284,0.7092198581560284,0.0,1.0,1.0,1.0,0.65

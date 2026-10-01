@@ -1,0 +1,130 @@
+{
+  "seed": 42,
+  "start_date": "2026-01-05",
+  "weeks": 4,
+  "n_providers": 3,
+  "panel_size": 1800,
+  "staff": {
+    "rn": 2,
+    "ma": 2,
+    "fd": 2
+  },
+  "patient_propensity_sigma": 1.715,
+  "daily_volume": {
+    "portal_message": 3.2,
+    "patient_call": 4.8,
+    "result": 15.5,
+    "rx_renewal": 5.0,
+    "referral_notice": 2.0,
+    "prior_auth": 1.0,
+    "staff_message": 7.0,
+    "cc_message": 10.0,
+    "order_to_sign": 10.0,
+    "system_notice": 18.0
+  },
+  "weekend_factor": {
+    "portal_message": 0.4,
+    "result": 0.2,
+    "system_notice": 0.5
+  },
+  "visits_per_day": 16,
+  "p_nonclinical": 0.35,
+  "p_staff_reply_nonclinical": 0.8,
+  "p_provider_direct": 0.32,
+  "p_provider_followup": 0.1,
+  "p_triage_before_forward": 0.0,
+  "p_patient_followup": 0.15,
+  "p_cc_late_read": 0.05,
+  "coverage_days_per_provider": 1,
+  "planted": {
+    "p1_thank_you": 0.04,
+    "p2_unread_cc": 0.25,
+    "p3_extended_thread": 0.05,
+    "p4_result_misrouted": 0.03,
+    "p7_pingpong_extra": 0.03,
+    "p8_nonclinical_misrouted": 0.05
+  },
+  "dwell": {
+    "fd_pickup": [
+      60,
+      1.0
+    ],
+    "rn_pickup": [
+      90,
+      1.0
+    ],
+    "ma_pickup": [
+      90,
+      1.0
+    ],
+    "staff_direct_forward": [
+      3,
+      0.6
+    ],
+    "staff_triage_forward": [
+      12,
+      0.6
+    ],
+    "provider_pickup": [
+      240,
+      1.2
+    ],
+    "provider_act": [
+      3,
+      0.7
+    ],
+    "provider_phone": [
+      10,
+      0.5
+    ],
+    "staff_reply": [
+      8,
+      0.7
+    ],
+    "provider_followup": [
+      1440,
+      0.6
+    ],
+    "patient_followup": [
+      720,
+      1.0
+    ],
+    "result_pickup": [
+      300,
+      1.1
+    ],
+    "info_pickup": [
+      600,
+      1.2
+    ],
+    "cc_pickup": [
+      1440,
+      1.5
+    ],
+    "staff_msg_pickup": [
+      240,
+      1.1
+    ],
+    "order_pickup": [
+      480,
+      1.1
+    ],
+    "quick_done": [
+      1,
+      0.5
+    ]
+  },
+  "staff_hours": [
+    8,
+    17
+  ],
+  "provider_hours": [
+    7,
+    21
+  ],
+  "noise": {
+    "missing_access_rate": 0.0,
+    "timestamp_jitter_min": 2.0,
+    "category_mislabel_rate": 0.0
+  }
+}

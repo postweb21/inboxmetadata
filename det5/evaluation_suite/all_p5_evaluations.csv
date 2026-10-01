@@ -1,0 +1,4 @@
+eligible_staff_pool_clinical_messages,reference_forwarded,detector_forwarded,reference_forwarding_rate,detector_forwarding_rate,absolute_rate_error,set_sensitivity,set_PPV,set_F1,config_implied_clinical_share_note,seed
+344,342,342,0.994186046511628,0.994186046511628,0.0,1.0,1.0,1.0,0.65,1
+339,339,339,1.0,1.0,0.0,1.0,1.0,1.0,0.65,2
+341,337,337,0.9882697947214076,0.9882697947214076,0.0,1.0,1.0,1.0,0.65,3

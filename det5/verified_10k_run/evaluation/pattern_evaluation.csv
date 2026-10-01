@@ -1,0 +1,7 @@
+pattern,evaluation_mode,TP,FP,FN,sensitivity,PPV,F1,reference_positives,flagged
+P1_low_value_terminal,planted_detection,16,0,0,1.0,1.0,1.0,16,16
+P4_result_nonordering,planted_detection,69,0,0,1.0,1.0,1.0,69,69
+P7_pingpong,planted_detection,23,0,0,1.0,1.0,1.0,23,23
+P8_nonclinical_misrouted,planted_detection,16,0,0,1.0,1.0,1.0,16,16
+P2_unread_cc,definition_derived_validation,361,0,0,1.0,1.0,1.0,361,361
+P3_extended_thread,definition_reconstruction_check,41,0,0,1.0,1.0,1.0,41,41

@@ -1,0 +1,7 @@
+pattern,evaluation_mode,sensitivity_mean,sensitivity_min,sensitivity_max,PPV_mean,PPV_min,PPV_max,F1_mean,F1_min,F1_max,reference_positives_mean,reference_positives_min,reference_positives_max,flagged_mean,flagged_min,flagged_max
+P1_low_value_terminal,planted_detection,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,4.666666666666667,2,7,4.666666666666667,2,7
+P2_unread_cc,definition_derived_validation,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,181.66666666666666,173,196,181.66666666666666,173,196
+P3_extended_thread,definition_reconstruction_check,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,13.0,10,17,13.0,10,17
+P4_result_nonordering,planted_detection,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,30.333333333333332,28,32,30.333333333333332,28,32
+P7_pingpong,planted_detection,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,9.333333333333334,8,12,9.333333333333334,8,12
+P8_nonclinical_misrouted,planted_detection,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,9.0,8,10,9.0,8,10
