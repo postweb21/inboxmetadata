@@ -2,7 +2,7 @@
 
 This repository contains the simulation, detection, and evaluation code supporting:
 
-> Jaren O. **Using Message-Level Metadata to Characterize Electronic Health Record Inbox Workflow.** *JAMIA Open* (submitted).
+> **Using Message-Level Metadata to Characterize Electronic Health Record Inbox Workflow.** 
 
 The study is a simulation-based feasibility analysis asking whether EHR inbox workflow
 patterns ("phenotypes" P1–P8) can be detected from message-level **metadata alone**
